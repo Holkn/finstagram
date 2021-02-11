@@ -21,5 +21,5 @@ class FinstagramPost < ActiveRecord::Base
     
     def comment_count
         self.comments.size
-    endÏ
+    end
 end
